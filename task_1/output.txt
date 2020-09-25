@@ -1,0 +1,534 @@
+Introduction 
+What is Flutter? 
+Join our Online Learning Community 
+Understanding the Flutter Architecture 
+How Flutter & Dart Code Gets Compiled To Native Apps 
+Understanding Flutter Versions 
+Flutter macOS Setup 
+macOS Development Environment 
+Android Licenses & XMLSchema Error 
+Flutter Windows Setup 
+Windows Development Environment 
+Flutter & Material Design 
+Flutter Alternatives 
+Course Outline 
+How To Get The Most Out Of The Course 
+Useful Resources & Links 
+Module Introduction 
+Creating a New Project 
+An Overview of the Generated Files & Folders 
+More on Git (Version Control System) 
+Analyzing the Default App 
+Dart Basics 
+More Dart Basics 
+Dart Basics - Summary 
+Dart Fundamentals 
+Building an App From Scratch 
+Running the App on an Emulator 
+Class Constructors & Named Arguments 
+First Summary & Additional Syntax 
+Flutter App Basics 
+Building a Widget Tree 
+Visible (Input / Output) & Invisible (Layout / Control) Widgets 
+Adding Layout Widgets 
+Widget Basics 
+Connecting Functions & Buttons 
+Anonymous Functions 
+Updating Widget Data (Or: Using StatelessWidget Incorrectly) 
+[DART DEEP DIVE] Understanding Lists 
+Updating Correctly with Stateful Widgets 
+Stateful & Stateless Widgets 
+A Brief Look Under The Hood 
+Using Private Properties 
+Creating a New, Custom Widget 
+First Styling & Layouting Steps 
+Enums & Multiple Constructors 
+Official Docs & The Widget Catalog 
+Passing Callback Functions Around 
+Introducing Maps 
+Mapping Lists to Widgets 
+final vs const 
+Advanced Flutter & Dart Basics 
+Introducing "if" Statements 
+[DART DEEP DIVE] More on "if" Statements 
+[DART DEEP DIVE] The "null" Value 
+Outputting Widgets Conditionally 
+Splitting the App Into Widgets 
+Calculating a Total Score 
+Getters & "else-if" 
+Resetting the Quiz 
+Time to Practice: Flutter Basics 
+Wrap Up 
+Module Resources 
+Module Introduction 
+Running the App on a Real Android Device 
+Running the App on an iOS Emulator 
+Running the App on a Real iOS Device 
+Working with the Emulators / Using the Emulators 
+Understanding Error Messages & Fixing Errors 
+Using the Debugger 
+Getting Started with the Dart DevTools 
+Understanding the Repaint Rainbow 
+Wrapping up the Dart DevTools 
+Useful Resources & Links 
+Module Introduction 
+An Overview of the Core Flutter Widgets 
+Planning the App 
+Combining Widgets 
+Understanding Column Alignment 
+Columns & Rows 
+Not a Widget: Adding a Transaction Model & Transaction Data 
+Mapping Data Into Widgets 
+Building a Custom List Item 
+Styling a Container 
+Styling Text 
+More Styling! 
+Styling Time! 
+Containers vs Columns vs Rows 
+Using String Interpolation 
+Installing External Packages & Formatting Dates 
+DateFormat Patterns 
+Adding Text Input Widgets (TextField) 
+Fetching User Input 
+Splitting the App Into Widgets 
+Connecting Widgets & Managing Data / State 
+Adding User Transactions to the List 
+Making the List Scrollable! 
+Working with ListViews 
+Lists, Scrolling & Text Input 
+Further Input & Output Styling and Configuration 
+Adding AppBar Buttons & Floating Action Buttons 
+Showing a Modal Bottom Sheet 
+Improving & Styling the Modal Bottom Sheet 
+Configuring & Using Themes 
+Custom Fonts & Working with Text Themes 
+Theming 
+Adding Images to the App 
+Planning the Chart Widget 
+Looping Through Lists 
+More on "for" Loops 
+Deriving Recent Transactions 
+Creating Bars for our Chart 
+Populating the Chart with Values 
+Finishing the Chart Bars 
+Flexible & Expanded: Deep Dive 
+Adding a ListTile Widget 
+Improving the Overall Chart 
+Widgets & Configuring Widgets - Summary / Overview 
+Getting Started with Date Selection 
+Showing a DatePicker 
+Adding Transactions with a Date 
+Deleting Transactions & Using IconButtons 
+Final Polishing! 
+Wrap Up 
+Useful Resources & Links 
+Module Introduction 
+What does "Responsive" and "Adaptive" Mean? 
+Examples: Where we could improve the App! 
+Calculating Sizes Dynamically 
+Working with the "textScaleFactor" 
+Using the LayoutBuilder Widget 
+Responsiveness 
+Controlling the Device Orientation 
+Rendering Alternative Landscape Content - 1 
+Finishing Landscape Mode 
+Showing Different Content Based on Device Orientation 
+Respecting the Softkeyboard Insets 
+Using the Device Size in Conditions 
+Managing the MediaQuery Object 
+Checking the Device Platform 
+Using Cupertino (iOS) Widgets 
+Using the SafeArea 
+More Cupertino Styles 
+Using Cupertino Buttons 
+Creating Custom Adaptive Widgets 
+Adaptive Widgets 
+Wrap Up 
+Useful Resources & Links 
+Module Introduction 
+The Problem At Hand 
+Widget Tree & Element Tree - What, Why and How? 
+How Flutter Rebuilds & Repaints the Screen 
+How Flutter Executes build() 
+Using "const" Widgets & Constructors 
+Widgets, Elements, build() 
+Writing Good Code 
+Extracting Widgets 
+Using Builder Methods 
+Time to Practice: Builder Methods 
+Understanding the Widget Lifecycle 
+Calling super.initState() etc. 
+Understanding the App Lifecycle 
+Understanding Context 
+A Problem with Lists & Stateful Widgets 
+Understanding the Problem Root 
+Using Keys 
+Keys, Lists, Stateful Widgets 
+Wrap Up 
+Useful Resources & Links 
+Module Introduction 
+Planning the App 
+Starting With The App - Adding Base Data 
+Creating a Grid & Working with Linear Gradients 
+Registering a Screen as the Main Screen 
+Styling & Theming 
+Navigating to a New Page 
+Passing Data via the Constructor 
+Using Named Routes & Passing Data With Named Routes 
+Screens & Navigation 
+Diving Deeper into Named Routes 
+Adding a Meal Model & Data 
+Selecting Meals for a Chosen Category 
+Displaying Recipe Items & Using Network Images 
+Finishing the Meal List Item 
+Navigating to the Meal Detail Page 
+onGenerateRoute & onUnknownRoute 
+More Navigation! 
+Finishing the Meal Detail Page 
+Adding a TabBar to the Appbar 
+Adding a Bottom TabBar 
+Adding a Custom Drawer 
+Adding Links to the Drawer 
+Tabs & Drawers! 
+Replacing Pages (Instead of Pushing) 
+Popping Pages & Passing Data Back 
+Replacing, Popping & Data 
+Adding Filter Switches 
+Adding Filtering Logic 
+Adding a "Mark as Favorite" Feature 
+A Problem! 
+Wrap Up 
+Useful Resources & Links 
+Module Introduction 
+Planning the App 
+Defining a Data Model 
+Working on the "Products" Grid & Item Widgets 
+Styling & Theming the App 
+Adding Navigation to the App 
+Why State Management? And what is "State" and "State Management"? 
+Understanding the "Provider" Package & Approach 
+Working with Providers & Listeners 
+[DART DEEP DIVE] Inheritance ("extends") vs Mixins ("with") 
+Providing non-Objects 
+Listening in Different Places & Ways 
+State, State Management & The Provider Package/ Approach 
+Using Nested Models & Providers 
+Exploring Alternative Provider Syntaxes 
+Using "Consumer" instead of "Provider.of" 
+Local State vs App-wide State 
+Adding Shopping Cart Data 
+More on State Management & The Provider Package 
+Working with Multiple Providers 
+Connecting the Cart Provider 
+Working on the Shopping Cart & Displaying a Total 
+Displaying a List of Cart Items 
+Making Cart Items Dismissible 
+Adding Product Detail Data 
+Providing an Orders Object 
+Adding Orders 
+Adding an Orders Screen 
+Using a Side Drawer 
+Making Orders Expandable & Stateful Widgets vs Providers 
+Wrap Up 
+Useful Resources & Links 
+Module Introduction 
+Snackbars & Undoing "Add to Cart" Actions 
+Showing Alert Dialogs 
+Adding a "Manage Products" Page 
+"Edit Product" Screen & A Problem 
+Using Forms & Working with Form Inputs 
+ListView or Column 
+Managing Form Input Focus 
+Multiline Inputs & Disposing Objects 
+Adding an Image Preview 
+Image Input & Image Preview 
+Submitting Forms 
+Validating User Input 
+Adding Validation to All Inputs 
+[OPTIONAL] Working with Regular Expressions 
+Saving New Products 
+Time to Update Products! 
+Allowing Users to Delete Products 
+Wrap Up 
+Useful Resources & Links 
+Module Introduction 
+On-Device vs Web Storage 
+How to Connect Flutter to a Database 
+Preparing Our Backend 
+How To Send Http Requests 
+Sending POST Requests 
+Working with Futures in Dart 
+[DART DEEP DIVE] Futures & Async Code 
+Http Requests & Futures 
+Showing a Loading Indicator 
+Handling Errors Gracefully 
+Working with "async" & "await" 
+Fetching Data, initState & "of(context)" 
+How to Transform Fetched Data 
+Implementing Pull-to-Refresh 
+Updating Data via PATCH Requests 
+Utilizing Optimistic Updating 
+Creating Custom Exceptions & More Error Handling 
+A Challenge For You! 
+Updating the "Favorite" Status Optimistically 
+Storing Orders in the Web 
+Fetching Orders & Fixing an Issue 
+Using the "FutureBuilder" Widget & Improving the Code 
+Wrap Up 
+Useful Resources & Links 
+Useful Resources & Links  00:05 
+Useful Resources & Links  00:07 
+Useful Resources & Links  00:08 
+Useful Resources & Links  00:08 
+Useful Resources & Links  00:08 
+Useful Resources & Links  00:08 
+Module Resources  00:09 
+Useful Resources & Links  00:09 
+Useful Resources & Links  00:11 
+Useful Resources & Links  00:13 
+Join our Online Learning Community  00:21 
+More on Git (Version Control System)  00:26 
+More on "for" Loops  00:28 
+DateFormat Patterns  00:33 
+Working with the "textScaleFactor"  00:38 
+Adding an Image Preview  00:39 
+Android Licenses & XMLSchema Error  00:41 
+Calling super.initState() etc.  00:48 
+ListView or Column  00:49 
+Providing non-Objects  00:52 
+Wrap Up  00:53 
+[OPTIONAL] Working with Regular Expressions  01:08 
+Flutter & Material Design  01:15 
+[DART DEEP DIVE] Understanding Lists  01:30 
+Wrapping up the Dart DevTools  01:34 
+Module Introduction  01:37 
+Wrap Up  01:41 
+Using the SafeArea  01:43 
+Wrap Up  01:43 
+Introduction  01:48 
+A Challenge For You!  01:48 
+Running the App on a Real iOS Device  01:52 
+Wrap Up  01:53 
+Wrap Up  01:54 
+More Styling!  01:55 
+Module Introduction  02:00 
+[DART DEEP DIVE] The "null" Value  02:03 
+Module Introduction  02:05 
+Managing the MediaQuery Object  02:06 
+Module Introduction  02:13 
+Outputting Widgets Conditionally  02:20 
+Module Introduction  02:23 
+Module Introduction  02:25 
+Working with the Emulators / Using the Emulators  02:25 
+A Brief Look Under The Hood  02:27 
+Module Introduction  02:32 
+Passing Data via the Constructor  02:38 
+Official Docs & The Widget Catalog  02:39 
+How To Get The Most Out Of The Course  02:40 
+A Problem!  02:40 
+Planning the App  02:43 
+Styling Text  02:46 
+Diving Deeper into Named Routes  02:46 
+Adding Orders  02:47 
+Understanding Flutter Versions  02:49 
+Wrap Up  02:55 
+Understanding the "Provider" Package & Approach  02:55 
+Finishing Landscape Mode  02:58 
+Module Introduction  03:02 
+Examples: Where we could improve the App!  03:04 
+Adding Transactions with a Date  03:07 
+Improving the Overall Chart  03:08 
+More Cupertino Styles  03:09 
+Registering a Screen as the Main Screen  03:10 
+Using Cupertino Buttons  03:11 
+How Flutter & Dart Code Gets Compiled To Native Apps  03:12 
+Visible (Input / Output) & Invisible (Layout / Control) Widgets  03:13 
+The Problem At Hand  03:13 
+Module Introduction  03:19 
+Anonymous Functions  03:20 
+Understanding the Repaint Rainbow  03:23 
+Running the App on an Emulator  03:25 
+Wrap Up  03:29 
+How to Connect Flutter to a Database  03:36 
+Containers vs Columns vs Rows  03:38 
+Mapping Data Into Widgets  03:39 
+Allowing Users to Delete Products  03:39 
+Working with Multiple Providers  03:41 
+Respecting the Softkeyboard Insets  03:43 
+Windows Development Environment  03:45 
+Saving New Products  03:52 
+Wrap Up  03:54 
+Running the App on a Real Android Device  03:56 
+Writing Good Code  03:57 
+Adding User Transactions to the List  03:58 
+Adding Links to the Drawer  04:03 
+Enums & Multiple Constructors  04:06 
+macOS Development Environment  04:08 
+On-Device vs Web Storage  04:08 
+Using the Device Size in Conditions  04:10 
+Multiline Inputs & Disposing Objects  04:11 
+Validating User Input  04:14 
+Controlling the Device Orientation  04:19 
+Replacing Pages (Instead of Pushing)  04:21 
+Planning the Chart Widget  04:22 
+Preparing Our Backend  04:31 
+Adding AppBar Buttons & Floating Action Buttons  04:32 
+Managing Form Input Focus  04:35 
+Rendering Alternative Landscape Content - 1  04:42 
+Planning the App  04:45 
+Understanding the Flutter Architecture  04:47 
+Adding Product Detail Data  04:49 
+Resetting the Quiz  04:53 
+Getting Started with the Dart DevTools  04:54 
+Selecting Meals for a Chosen Category  04:56 
+Implementing Pull-to-Refresh  04:56 
+Dart Basics - Summary  04:57 
+Creating Custom Adaptive Widgets  05:04 
+"Edit Product" Screen & A Problem  05:06 
+Widgets & Configuring Widgets - Summary / Overview  05:07 
+Understanding the Problem Root  05:09 
+Styling a Container  05:12 
+Styling & Theming the App  05:14 
+Using Private Properties  05:16 
+Getting Started with Date Selection  05:19 
+Using String Interpolation  05:21 
+Finishing the Chart Bars  05:25 
+Building a Custom List Item  05:26 
+Understanding Error Messages & Fixing Errors  05:27 
+onGenerateRoute & onUnknownRoute  05:27 
+Adding a ListTile Widget  05:29 
+Analyzing the Default App  05:32 
+Showing Different Content Based on Device Orientation  05:33 
+Final Polishing!  05:34 
+A Problem with Lists & Stateful Widgets  05:34 
+Checking the Device Platform  05:36 
+Using a Side Drawer  05:45 
+Introducing Maps  05:52 
+What is Flutter?  05:54 
+Running the App on an iOS Emulator  05:54 
+What does "Responsive" and "Adaptive" Mean?  05:55 
+How To Send Http Requests  05:56 
+Listening in Different Places & Ways  05:58 
+Flutter Alternatives  06:06 
+Extracting Widgets  06:07 
+Understanding Column Alignment  06:11 
+Making the List Scrollable!  06:11 
+Populating the Chart with Values  06:19 
+Using the Debugger  06:21 
+[DART DEEP DIVE] Inheritance ("extends") vs Mixins ("with")  06:23 
+Why State Management? And what is "State" and "State Management"?  06:29 
+Improving & Styling the Modal Bottom Sheet  06:30 
+Defining a Data Model  06:32 
+Connecting Widgets & Managing Data / State  06:33 
+Getters & "else-if"  06:34 
+Updating Data via PATCH Requests  06:35 
+Updating Widget Data (Or: Using StatelessWidget Incorrectly)  06:36 
+Updating the "Favorite" Status Optimistically  06:38 
+Course Outline  06:40 
+Using Named Routes & Passing Data With Named Routes  06:42 
+Understanding Context  06:46 
+Introducing "if" Statements  06:51 
+Adding Layout Widgets  06:52 
+Planning the App  06:55 
+Exploring Alternative Provider Syntaxes  06:55 
+Showing a Loading Indicator  06:59 
+Deleting Transactions & Using IconButtons  07:02 
+Styling & Theming  07:04 
+Showing Alert Dialogs  07:12 
+Navigating to the Meal Detail Page  07:17 
+Deriving Recent Transactions  07:24 
+Using "Consumer" instead of "Provider.of"  07:25 
+Installing External Packages & Formatting Dates  07:29 
+Connecting Functions & Buttons  07:30 
+Working with Futures in Dart  07:35 
+How to Transform Fetched Data  07:38 
+Building a Widget Tree  07:40 
+Using the LayoutBuilder Widget  07:44 
+Providing an Orders Object  07:44 
+Calculating a Total Score  07:46 
+Creating a Grid & Working with Linear Gradients  07:49 
+Adding Images to the App  07:57 
+Using Forms & Working with Form Inputs  07:59 
+First Styling & Layouting Steps  08:01 
+Utilizing Optimistic Updating  08:07 
+First Summary & Additional Syntax  08:10 
+Adding an Orders Screen  08:11 
+An Overview of the Generated Files & Folders  08:20 
+Fetching Data, initState & "of(context)"  08:27 
+Not a Widget: Adding a Transaction Model & Transaction Data  08:28 
+Further Input & Output Styling and Configuration  08:28 
+Class Constructors & Named Arguments  08:29 
+Adding Filter Switches  08:31 
+Adding Shopping Cart Data  08:39 
+Configuring & Using Themes  08:42 
+Making Cart Items Dismissible  08:47 
+How Flutter Rebuilds & Repaints the Screen  08:48 
+Using Cupertino (iOS) Widgets  09:05 
+Creating Custom Exceptions & More Error Handling  09:05 
+Calculating Sizes Dynamically  09:13 
+Combining Widgets  09:18 
+How Flutter Executes build()  09:18 
+Understanding the App Lifecycle  09:25 
+[DART DEEP DIVE] Futures & Async Code  09:27 
+Fetching User Input  09:29 
+Showing a Modal Bottom Sheet  09:32 
+Adding Text Input Widgets (TextField)  09:41 
+An Overview of the Core Flutter Widgets  09:42 
+Adding Validation to All Inputs  09:50 
+Working with "async" & "await"  09:52 
+Splitting the App Into Widgets  09:57 
+Navigating to a New Page  10:10 
+Using Builder Methods  10:21 
+Flexible & Expanded: Deep Dive  10:23 
+Mapping Lists to Widgets  10:24 
+Adding a TabBar to the Appbar  10:26 
+Making Orders Expandable & Stateful Widgets vs Providers  10:29 
+Adding Navigation to the App  10:30 
+Snackbars & Undoing "Add to Cart" Actions  10:30 
+Passing Callback Functions Around  10:38 
+Widget Tree & Element Tree - What, Why and How?  10:45 
+final vs const  10:50 
+Sending POST Requests  10:55 
+Creating Bars for our Chart  10:59 
+Building an App From Scratch  11:02 
+Custom Fonts & Working with Text Themes  11:07 
+Showing a DatePicker  11:13 
+[DART DEEP DIVE] More on "if" Statements  11:15 
+Using Keys  11:15 
+Using "const" Widgets & Constructors  11:16 
+Displaying a List of Cart Items  11:17 
+Starting With The App - Adding Base Data  11:18 
+Storing Orders in the Web  11:29 
+Connecting the Cart Provider  11:31 
+Working on the Shopping Cart & Displaying a Total  11:37 
+Creating a New, Custom Widget  11:50 
+Updating Correctly with Stateful Widgets  11:58 
+Submitting Forms  12:01 
+Working with ListViews  12:02 
+Handling Errors Gracefully  12:11 
+Creating a New Project  12:15 
+Fetching Orders & Fixing an Issue  12:21 
+Adding a Custom Drawer  12:37 
+Splitting the App Into Widgets  12:44 
+Adding a Meal Model & Data  12:44 
+Understanding the Widget Lifecycle  12:55 
+More Dart Basics  13:06 
+Adding a Bottom TabBar  13:12 
+Image Input & Image Preview  13:15 
+Looping Through Lists  13:47 
+Using the "FutureBuilder" Widget & Improving the Code  13:47 
+Using Nested Models & Providers  14:03 
+Adding a "Manage Products" Page  14:15 
+Displaying Recipe Items & Using Network Images  14:59 
+Finishing the Meal List Item  15:21 
+Local State vs App-wide State  15:40 
+Adding Filtering Logic  16:19 
+Time to Update Products!  16:19 
+Working on the "Products" Grid & Item Widgets  16:24 
+Popping Pages & Passing Data Back  17:06 
+Dart Basics  17:17 
+Finishing the Meal Detail Page  17:34 
+Flutter macOS Setup  19:35 
+Adding a "Mark as Favorite" Feature  19:57 
+Working with Providers & Listeners  21:09 
+Flutter Windows Setup  31:46 
